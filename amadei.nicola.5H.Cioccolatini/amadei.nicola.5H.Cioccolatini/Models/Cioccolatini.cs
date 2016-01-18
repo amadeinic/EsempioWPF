@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
 using System.Xml.Linq;
 
 namespace amadei.nicola._5H.Cioccolatini
@@ -27,12 +28,13 @@ namespace amadei.nicola._5H.Cioccolatini
         {
             try
             {
+                this.Clear();
                 XElement dati = XElement.Load(FilePath);
-                IEnumerable<XElement> cioccolatini = dati
-                       .Element("cioccolatini")
-                       .Elements("cioccolatino");
+                IEnumerable<XElement> ieCioccolatini = dati
+                       .Element("Cioccolatini")
+                       .Elements("Cioccolatino");
 
-                foreach (XElement c in cioccolatini)
+                foreach (XElement c in ieCioccolatini)
                 {
                     Add(new Cioccolatino(c));
                 }
@@ -45,12 +47,13 @@ namespace amadei.nicola._5H.Cioccolatini
         }
         public void Save()
         {
-            XElement elemento = new XElement("cioccolatini", this.Select(x => new XElement("cioccolatino",                                              
-                                               new XAttribute("Marca", x.Marca),
-                                               new XText(x.Nome))));
-           //E ADESSO COME LO SALVO??
+            //Da fare
 
-
+            //XElement elemento = new XElement("Root",
+            //                                   new XElement("Cioccolatini", this.Select(x => new XElement("Cioccolatino",                                              
+            //                                   new XAttribute("Marca", x.Marca),
+            //                                   new XText(x.Nome)))));          
+            throw new NotImplementedException();
         }
     }
 }

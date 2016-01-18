@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<root>
-  <cioccolatini>
-    <cioccolatino Marca="Lindt">Lindor</cioccolatino>
-    <cioccolatino Marca="Ferrero">Rocher</cioccolatino>
-    <cioccolatino Marca="Perugina">Bacio</cioccolatino>
-    <cioccolatino Marca="Novi">Nocciolato</cioccolatino>
-  </cioccolatini>
-</root>
+<Root>
+  <Cioccolatini>
+    <Cioccolatino Marca="Lindt">Lindor</Cioccolatino>
+    <Cioccolatino Marca="Ferrero">Rocher</Cioccolatino>
+    <Cioccolatino Marca="Perugina">Bacio</Cioccolatino>
+      <Cioccolatino Marca="Novi">Nocciolato</Cioccolatino>
+  </Cioccolatini>
+</Root>

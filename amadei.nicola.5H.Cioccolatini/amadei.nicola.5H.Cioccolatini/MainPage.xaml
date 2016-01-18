@@ -13,33 +13,32 @@
             <RowDefinition></RowDefinition>
             <RowDefinition Height="Auto"></RowDefinition>
         </Grid.RowDefinitions>
-        <TextBlock Style="{ThemeResource HeaderTextBlockStyle}" Margin="10,0,0,0" Text="My Cioccolatinos"></TextBlock>
+        <TextBlock Style="{ThemeResource HeaderTextBlockStyle}" Margin="10,0,0,0" Text="Cioccolatini"></TextBlock>
         <ListView Grid.Row="1" Name="lstScatola">
             <ListView.ItemTemplate>
                 <DataTemplate>
 
                     <StackPanel Orientation="Horizontal">
-                        <TextBlock Margin="0,0,5,0" Text="{Binding Marca}" Style="{StaticResource BaseTextBlockStyle}" />
-                        <TextBlock Grid.Column="2" Text="{Binding Nome}" Style="{StaticResource BaseTextBlockStyle}" />
+                        <Image Source="Assets/choco.png" Width="60" Height="60" Margin="0,0,5,0"></Image>
+                        <TextBlock VerticalAlignment="Center" Margin="0,0,5,0" Text="{Binding Marca}" Style="{StaticResource BaseTextBlockStyle}" />
+                        <TextBlock VerticalAlignment="Center" Grid.Column="2" Text="{Binding Nome}" Style="{StaticResource BaseTextBlockStyle}" />
                     </StackPanel>
 
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
 
-        <CommandBar Grid.Row="2">
-            <AppBarToggleButton Name="abtnAdd" Icon="Add" Label="Add" Click="AppBarToggleButton_Click"  />
-            <AppBarToggleButton Name="abtnDelete" Icon="Delete" Label="Delete All" Click="abtnDelete_Click" />
-            
-            
-
+        <CommandBar Grid.Row="2">            
+            <AppBarToggleButton Name="abtnAdd" Icon="Add" Label="Aggiungi" Click="AppBarToggleButton_Click"  />            
+            <AppBarToggleButton Name="abtnDelete" Icon="Delete" Label="Cancella Modifiche" Click="abtnDelete_Click" />
+            <AppBarToggleButton Name="abtnSave" Icon="Save" Label="Salva" Click="abtnSave_Click" />
             <CommandBar.SecondaryCommands>               
-                <AppBarButton Icon="Important" Label="About" />
+                <AppBarButton Icon="ContactInfo" Label="About" Click="AppBarButton_Click" />
             </CommandBar.SecondaryCommands>
 
-            <CommandBar.Content>
+            <!--<CommandBar.Content>
                 <TextBlock Text="Nicola Amadei 2016" Margin="12,14"/>
-            </CommandBar.Content>
+            </CommandBar.Content>-->
         </CommandBar>
 
     </Grid>

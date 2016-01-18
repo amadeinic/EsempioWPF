@@ -115,6 +115,7 @@
     <None Include="amadei.nicola.5H.Cioccolatini_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\choco.png" />
     <Content Include="Dati.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

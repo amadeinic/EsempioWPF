@@ -40,7 +40,7 @@ namespace amadei.nicola._5H.Cioccolatini
             catch(Exception erore)
             {
                 MessageDialog msg = new MessageDialog("Errore di inserimento.\n" + erore.Message, "Qualcosa non va!");
-                await msg.ShowAsync();
+                await msg.ShowAsync();                
             }
         }
 

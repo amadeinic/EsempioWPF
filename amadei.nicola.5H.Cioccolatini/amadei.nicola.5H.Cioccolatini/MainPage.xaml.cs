@@ -27,9 +27,7 @@ namespace amadei.nicola._5H.Cioccolatini
 
         public MainPage()
         {
-            this.InitializeComponent();
-                      
-                     
+            this.InitializeComponent();                                          
         }
 
         private async void AppBarToggleButton_Click(object sender, RoutedEventArgs e)
@@ -47,13 +45,23 @@ namespace amadei.nicola._5H.Cioccolatini
             {
                 MessageDialog msg = new MessageDialog("Non è possibile inserire i dati.\n" + erore.Message, "Qualcosa non va!");
                 await msg.ShowAsync();
-            }     
-       
+            }           
         }
 
-        private void abtnDelete_Click(object sender, RoutedEventArgs e)
+        private async void abtnDelete_Click(object sender, RoutedEventArgs e)
         {
-            throw (new NotImplementedException());
+            Scatola.Clear();
+            try
+            {                
+                Scatola.Load();
+            }
+            catch (Exception erore)
+            {
+                MessageDialog msg = new MessageDialog("Non è possibile recuperare i dati.\n" + erore.Message, "Qualcosa non va!");
+                await msg.ShowAsync();
+            }
+            MessageDialog msgInfo = new MessageDialog("Ho eliminato tutti i dati inseriti in questa sessione.\nIl file rimarrà invariato.", "Fatto!");
+            await msgInfo.ShowAsync();
         }
 
         private async void Page_Loaded(object sender, RoutedEventArgs e)
@@ -68,6 +76,18 @@ namespace amadei.nicola._5H.Cioccolatini
                 MessageDialog msg = new MessageDialog("Non è possibile recuperare i dati.\n" + erore.Message, "Qualcosa non va!");
                 await msg.ShowAsync();
             }
+        }
+
+        private async void abtnSave_Click(object sender, RoutedEventArgs e)
+        {
+            MessageDialog msg = new MessageDialog("Scusa, non so ancora come salvare.", "Ancora no!");
+            await msg.ShowAsync();
+        }
+
+        private async void AppBarButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageDialog msg = new MessageDialog("Created by Nicola Amadei\nITTS \"O. Belluzzi - L. Da Vinci\" Rimini", "Piacere di conoscerti!");
+            await msg.ShowAsync();
         }
     }
 }
