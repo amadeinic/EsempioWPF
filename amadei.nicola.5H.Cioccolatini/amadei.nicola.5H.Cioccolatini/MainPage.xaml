@@ -36,9 +36,9 @@
                 <AppBarButton Icon="ContactInfo" Label="About" Click="AppBarButton_Click" />
             </CommandBar.SecondaryCommands>
 
-            <!--<CommandBar.Content>
+            <CommandBar.Content>
                 <TextBlock Text="Nicola Amadei 2016" Margin="12,14"/>
-            </CommandBar.Content>-->
+            </CommandBar.Content>
         </CommandBar>
 
     </Grid>
