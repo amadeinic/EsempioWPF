@@ -1,0 +1,29 @@
+﻿@using amadei.nicola._5H.CioccoASP.Models
+@model Cioccolatini
+@{
+    ViewBag.Title = "Elenco Cioccolatini";
+}
+
+<h2>Nella scatola ci sono @Model.NumeroDiCioccolatini cioccolatini</h2>
+<br />
+<table class="table table-hover table-striped">
+    <tr><th>Marca</th><th>Nome</th><th>Tipo</th><th>Calorie</th></tr>
+
+    @foreach (var c in Model)
+    {
+        <tr>            
+            <td>@c.Marca</td>
+            <td>@c.Nome</td>
+            <td>@c.Tipo</td>
+            @if (c.Calorie > 100)
+            {
+                <td class="danger">@c.Calorie</td>
+            }
+            else
+            {
+                <td class="success">@c.Calorie</td>
+            }
+        </tr>
+    }
+</table>
+<a href="~/Home/Index">Torna all'inizio</a>

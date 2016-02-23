@@ -1,0 +1,35 @@
+﻿@using amadei.nicola._5H.ASPMVC.Models
+@model Utenti
+@{
+    ViewBag.Title = "ElencoUtenti";
+}
+
+<h2>Ho trovato @Model.NumeroDiUtenti utenti</h2>
+@foreach (Utente u in Model)
+{
+    @u.Nome <br/>
+}
+<ul>
+    @foreach (var u in Model)
+    {
+        <li>@u.Nome @u.Cognome</li>
+    }
+</ul>
+<br/>
+<table class="table table-hover">
+    <tr><th>Nome</th><th>Cognome</th></tr>
+    @foreach (var u in Model)
+    {
+        <tr>
+            @if (u.Nome == "Onorio")
+            {
+                <td class="danger">@u.Nome</td>
+            }
+            else
+            {
+                <td>@u.Nome</td>
+            }
+            <td>@u.Cognome</td>
+        </tr>
+    }
+</table>
