@@ -1,0 +1,59 @@
+﻿@using amadei.nicola._5H.SiteOfSites5H.Models
+
+@model SchoolClass
+@{
+    ViewBag.Title = "Welcome to 5H";
+}
+
+<!-- Team MEmber Start -->
+<section id="team">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="feature_header text-center">
+                    <h3 class="feature_title">5H <b>We Are!</b></h3>
+                    <h4 class="feature_sub">ITTS "O. Belluzzi - L. Da Vinci" - Rimini, IT</h4>
+                    <div class="divider"></div>
+                </div>
+            </div>  <!-- Col-md-12 End -->
+
+            <div id="owl-demo" class="owl-carousel owl-theme team-items">           
+                @foreach (var st in Model)
+                {
+                    <div class="item text-center col-md-3 col-sm-3 col-xs-3" style="margin-bottom: 40px;">
+                        <div class="single-member">
+                            <div class="overlay-hover">
+                                <img src="~/Images/team/pic2.jpg" alt="Pic not found!" class="img-responsive">
+                                <div class="overlay-effect">
+                                    <ul class="social list-inline">
+                                        @if (st.FbId != "")
+                                        {
+                                        <li><a href="http://facebook.com/@st.FbId"><h1><i class="fa fa-facebook-square"></i></h1></a></li>
+                                        }
+                                        @if (st.GitId != "")
+                                        {
+                                            <li><a href="http://github.com/@st.GitId"><i class="fa fa-github"></i></a></li>
+                                        }
+                                        @if (st.WebURL!= "")
+                                        {
+                                            <li><a href="@st.WebURL"><i class="fa fa-globe"></i></a></li>
+                                        }
+                                    </ul>
+                                    <p>@st.Description</p>
+                                </div>
+                            </div>
+                            <h3>@st.Name @st.Surname</h3>
+                            <h5>@st.Motto</h5>
+                        </div>
+                    </div>  <!-- item wrapper end -->
+                }
+                
+
+            </div>
+        </div>
+    </div> <!-- Conatiner Team end -->
+    <!-- </div> -->
+
+</section>  <!-- Section TEam End -->
+<!-- Our Team Members End -->
+<h2>Siamo in @Model.NumberOfStudents!</h2>

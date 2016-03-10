@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schoolclass name="5H Informatica" sname="5Hi">
+    <students>
+        <student>
+            <name>Isli</name>
+            <surname>Allkja</surname>
+            <description>Ciao, faccio parte di questa classe!</description>
+            <motto>Albania in da house</motto>
+            <imageURL></imageURL>
+            <fbId></fbId>
+            <gitId></gitId>
+            <driveroot></driveroot>
+            <webURL>http://iallkja.gear.host/</webURL>
+        </student>
+        <student>
+            <name>Nicola</name>
+            <surname>Amadei</surname>
+            <description>Ciao, faccio parte di questa classe!</description>
+            <motto>Lumacorno club</motto>
+            <imageURL></imageURL>
+            <fbId>amadei.nicola</fbId>
+            <gitId>amadeinic</gitId>
+            <driveroot></driveroot>
+            <webURL servtype="msazure">http://namadei.azurewebsites.net/</webURL>
+        </student>
+        <student>
+            <name>Giulio</name>
+            <surname>Migani</surname>
+            <description>Ciao, faccio parte di questa classe!</description>
+            <motto>Lumacorno club</motto>
+            <imageURL></imageURL>
+            <fbId></fbId>
+            <gitId></gitId>
+            <driveroot></driveroot>
+            <webURL servtype="msazure">http://gmigani.azurewebsites.net/</webURL>
+        </student>
+        <student>
+            <name>Benjamin</name>
+            <surname>Vanni</surname>
+            <description>Ciao, faccio parte di questa classe!</description>
+            <motto>Heil Benji</motto>
+            <imageURL></imageURL>
+            <fbId></fbId>
+            <gitId></gitId>
+            <driveroot></driveroot>
+            <webURL>http://bvanni.gear.host/</webURL>
+        </student>
+        <student>
+            <name>Isli</name>
+            <surname>Allkja</surname>
+            <description>Ciao, faccio parte di questa classe!</description>
+            <motto></motto>
+            <imageURL></imageURL>
+            <fbId></fbId>
+            <gitId></gitId>
+            <driveroot></driveroot>
+            <webURL>http://iallkja.gear.host/</webURL>
+        </student>
+        <student>
+            <name>Nicolò</name>
+            <surname>Tomassini</surname>
+            <description>Ciao, faccio parte di questa classe!</description>
+            <motto></motto>
+            <imageURL></imageURL>
+            <fbId></fbId>
+            <gitId></gitId>
+            <driveroot></driveroot>
+            <webURL>http://ntomassini.gear.host/</webURL>
+        </student>
+        <student>
+            <name>Thomas</name>
+            <surname>Tombesi</surname>
+            <description>Ciao, faccio parte di questa classe!</description>
+            <motto></motto>
+            <imageURL></imageURL>
+            <fbId></fbId>
+            <gitId></gitId>
+            <driveroot></driveroot>
+            <webURL>http://ttombesi.gear.host/</webURL>
+        </student>
+        <student>
+            <name>Nicola</name>
+            <surname>Delbainco</surname>
+            <description>Ciao, faccio parte di questa classe!</description>
+            <motto></motto>
+            <imageURL></imageURL>
+            <fbId></fbId>
+            <gitId></gitId>
+            <driveroot></driveroot>
+            <webURL>http://ndelbianco.gear.host/</webURL>
+        </student>
+    </students>
+</schoolclass>

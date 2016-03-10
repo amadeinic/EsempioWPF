@@ -4,7 +4,7 @@
   <mp:PhoneIdentity PhoneProductId="d5e478ab-66d3-4b15-bf3c-23728b0a5603" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>amadei.nicola.5H.TestRFID</DisplayName>
-    <PublisherDisplayName>nicol</PublisherDisplayName>
+    <PublisherDisplayName>nicola</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
@@ -23,6 +23,6 @@
     </Application>
   </Applications>
   <Capabilities>
-    <Capability Name="internetClient" />   
+    <Capability Name="internetClient" />
   </Capabilities>
 </Package>

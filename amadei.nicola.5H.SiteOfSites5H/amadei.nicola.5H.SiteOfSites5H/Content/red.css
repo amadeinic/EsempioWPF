@@ -1,0 +1,340 @@
+
+/* Color styles
+================================================== */
+.btn-main:hover{
+    background:royalblue;
+    border:1px solid royalblue;
+    color: #fff;
+}
+.btn-main.featured{
+    background: royalblue;
+    border:1px solid royalblue;
+    color: #fff;
+}
+.btn-main.featured:hover{
+    background: #333;
+    color:#fff;
+    border:1px solid#333;
+}
+/*Menu style
+==================================*/
+#section_header .haeder-fixed,#section_header{
+    background: #fff;
+}
+.divider{
+    background: royalblue;
+    }
+.navbar-brand:hover{
+    color:royalblue;
+}
+ul.navbar-nav > .active > a{
+    color:royalblue!important;
+}
+ul.navbar-nav > li > a:hover{
+    color:royalblue!important;
+}
+ul.navbar-nav > .active > a,ul.navbar-nav > li > a:hover,.carousel-caption h4{
+    color:royalblue!important;
+}
+.navbar-toggle .icon-bar{
+    background:#000; 
+}
+.navbar-toggle {
+    background: #ccc;
+}
+
+.navbar-brand span{
+    color:#000;
+}
+ul.navbar-nav a {
+    color: #3a3a3a;
+}
+ul.navbar-nav > .active> a:hover{
+    color:#000 !important;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, 
+.dropdown-menu>li.active>a{
+    color: royalblue !important;
+}
+/*slider*/
+.carousel-caption h3{
+    color:#fff!important;
+}
+
+.line{
+    background: royalblue;
+}
+
+.btn-featured{
+    background: royalblue;
+     color:#fff;
+}
+.btn-featured:hover{
+    color: #222;
+    background: #fff;
+}
+.slides-control .carousel-control i{
+    border:1px solid#fff;
+    color: #fff;
+}
+.slides-control  .carousel-control i:hover{
+    background: royalblue;
+    border:1px solid royalblue;
+}
+.carousel-indicators .active, .carousel-indicators li:hover,.slides-control  .carousel-indicators .active{
+    background-color:royalblue;
+}
+
+
+/*service area
+=========================*/
+.feature_content i,.feature_content h5,.feature_content a{
+    color:#000!important;
+}
+.feature_content a:hover{
+    color:#fff;
+}
+.feature_content:hover i,.feature_content:hover  h5{
+      color: royalblue
+royalblue!important;
+}
+#isotope-filter a.active,#isotope-filter a:hover,#isotope-filter a:focus{
+    background: royalblue;
+}
+.feature-icon{
+    color: royalblue;
+}
+#isotope-filter a{
+background: #000;
+}
+
+/*Pricing
+=====================================*/
+.dark-bg{
+    background:#393A3B;
+}
+.dark_bg{
+    background:#393A3B;
+}
+.grey_bg ul li.plan, .grey_bg .plan_wraper,.grey_bg ul li.price,.grey_bg ul li.price_button .btn-default{
+   background:royalblue!important;
+}
+
+.dark_bg,.single_table ul li.plan,.dark_bg ul li.plan,.dark_bg ul li.price_button .btn-default,.single_table .plan_wraper
+,.dark_bg .plan_wraper
+ {
+     background: #434343;
+}
+.grey_bg {
+    background: royalblue;
+}
+.single_table ul li.price {
+    background: #F8F8F8!important;
+}
+.single_table ul li.price_button,.dark_bg ul li.price_button  {
+    background: #F6F6F6;
+}
+.single_table ul li.price_button .btn-default {
+    background: #444444;
+}
+.dark_bg ul li.price {
+    color: #434343;
+}
+
+#pricing_table .feature_title,#pricing_table .feature_sub{
+    color: #fff!important;
+}
+
+/*portfolio
+=================*/
+.single-portfolio figcaption,.single-portfolio figcaption .description{
+    background: none repeat scroll 0% 0% royalblue;
+}
+.single-portfolio figcaption .description,.single-portfolio figcaption h5{
+      color: #fff!important;
+}
+figcaption .links a:hover{
+    background: #222;
+    color: royalblue;
+}
+#isotope-filter a{
+    color:#959595;
+}
+#isotope-filter a.active,#isotope-filter a:hover,#isotope-filter a:focus{
+    color:#fff!important;
+}
+.feature-content{
+    color: #222;
+}
+
+
+/*single portfolio
+------------------*/
+.portfolio-desc h4:after{
+    background: royalblue;
+}
+.right-sidebar h4:after{
+    background: royalblue;
+}
+.related h3:after{
+    background:royalblue;
+}
+
+
+/*team
+=================*/
+
+#team {
+    background: #FAFAFA;
+}
+.single-member {
+    background: #fff;
+}
+
+.item .single-member h3 {
+    color: royalblue!important;
+}
+.single-member h5 {
+    color: #1F1F1F;
+}
+.line2{
+    background: royalblue;
+}
+.overlay-effect{
+    background: dodgerblue;
+}
+ #team .owl-theme .owl-controls .owl-buttons .owl-prev
+,#team .owl-theme .owl-controls .owl-buttons .owl-next{
+    background: royalblue;
+    color: #fff;
+}
+ #team .owl-theme .owl-controls .owl-buttons .owl-prev:hover
+,#team .owl-theme .owl-controls .owl-buttons .owl-next:hover {
+   background: #ccc;
+   color: #222;
+}
+
+
+/*testimonial
+=========================*/
+.testimonial-slide .testimonial-text:before,.testimonial-slide .testimonial-text:after {
+    color: royalblue;
+}
+
+.testimonial-slide .testimonial-content h3.name {
+    color: royalblue!important;
+}
+.customNavigation .fa-chevron-left, .customNavigation .fa-chevron-right{ 
+    background: royalblue;
+    color: #fff!important;
+}
+.customNavigation .fa-chevron-left:hover, .customNavigation .fa-chevron-right:hover{ 
+      background: #444;
+    color: #fff;
+}
+.customNavigation .fa-chevron-left, .customNavigation .fa-chevron-right{ 
+    color: #222;
+}
+
+.client_logo img:hover{ 
+    border: 1px solid royalblue;
+}
+
+
+.sepTem{
+    background: none repeat scroll 0% 0% royalblue;
+}
+
+.menu_head:after,.menu_head:before{
+    background: none repeat scroll 0% 0% royalblue;
+}
+
+.footer_menu_contact li i,.footer_menu_contact li span:hover {
+    color:royalblue;
+}
+
+.footer_menu ul li a:hover,.footer_menu li a:before,.footer_menu_contact li span:hover,.footer_bottom p span  {
+    color: royalblue;
+}
+.tags a:hover{
+    background:royalblue;
+}
+
+.feature_content a{
+    border:1px solid royalblue;
+}
+.feature_content a:hover{
+    background: royalblue;
+}
+
+/*contact area
+===============================================*/
+.left_contact input[type=text]{ }
+.left_contact input[type=text]:hover,
+textarea:hover {
+    border: 1px solid royalblue;
+}
+
+.form-level input:hover .form-level  span{
+    color: royalblue!important;
+}
+.left_contact input:hover, .right textarea:hover{
+    border:1px solid royalblue;
+    background: #F6F6F6;
+    color: royalblue;
+}
+.social-contact li i:hover{
+    color: royalblue;
+    border:1px solid royalblue;
+}
+/*blog
+=====================*/
+#blog{
+    background: #F8F8F8;
+}
+.post-date{
+    background:royalblue;
+}
+.owl-theme .owl-controls .owl-page span {
+    background: none repeat scroll 0% 0% royalblue;
+}
+
+.blog-desc .post-meta-links li a{
+    color: royalblue;
+}
+.tags1 a{
+    padding: 6px 15px;
+    background: royalblue;
+}
+.about-auther .well{
+    border-top: 5px solid royalblue!important;
+}
+.blog-tab .nav-tabs li.active a{
+    border-top: 5px solid royalblue!important;
+}
+
+.blog-tab .tab-content .single-tweet i{
+    color: royalblue;
+}
+.blog-tab .tab-content .single-tweet p a{
+    color: royalblue;
+}
+.comments .media-body a:hover{
+    background: royalblue;
+}
+.blog-form h4 span{
+    color: royalblue;
+}
+.blog-catagory ul li a:hover{
+    color: royalblue;
+}
+.blog-catagory ul li a:hover span{
+    color: #fff;
+    background: royalblue;
+}
+.blog-form .form-control:hover{
+    border: 1px solid royalblue;
+}
+.rel-post .caption h4:hover{
+    color: royalblue;
+}

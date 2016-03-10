@@ -201,6 +201,25 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
+      "Newtonsoft.Json/8.0.2": {
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Pubnub/3.7.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "[6.0.3, )"
+        },
+        "compile": {
+          "lib/netcore451/_._": {}
+        },
+        "runtime": {
+          "lib/netcore451/_._": {}
+        }
+      },
       "System.AppContext/4.0.0": {
         "dependencies": {
           "System.Collections": "[4.0.0, )",
@@ -1777,6 +1796,25 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Newtonsoft.Json/8.0.2": {
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Pubnub/3.7.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "[6.0.3, )"
+        },
+        "compile": {
+          "lib/netcore451/_._": {}
+        },
+        "runtime": {
+          "lib/netcore451/_._": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -3388,6 +3426,25 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Newtonsoft.Json/8.0.2": {
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Pubnub/3.7.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "[6.0.3, )"
+        },
+        "compile": {
+          "lib/netcore451/_._": {}
+        },
+        "runtime": {
+          "lib/netcore451/_._": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -5006,6 +5063,25 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
+      "Newtonsoft.Json/8.0.2": {
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Pubnub/3.7.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "[6.0.3, )"
+        },
+        "compile": {
+          "lib/netcore451/_._": {}
+        },
+        "runtime": {
+          "lib/netcore451/_._": {}
+        }
+      },
       "System.AppContext/4.0.0": {
         "dependencies": {
           "System.Collections": "[4.0.0, )",
@@ -6615,6 +6691,25 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Newtonsoft.Json/8.0.2": {
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Pubnub/3.7.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "[6.0.3, )"
+        },
+        "compile": {
+          "lib/netcore451/_._": {}
+        },
+        "runtime": {
+          "lib/netcore451/_._": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -8233,6 +8328,25 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
+      "Newtonsoft.Json/8.0.2": {
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Pubnub/3.7.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "[6.0.3, )"
+        },
+        "compile": {
+          "lib/netcore451/_._": {}
+        },
+        "runtime": {
+          "lib/netcore451/_._": {}
+        }
+      },
       "System.AppContext/4.0.0": {
         "dependencies": {
           "System.Collections": "[4.0.0, )",
@@ -9842,6 +9956,25 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Newtonsoft.Json/8.0.2": {
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Pubnub/3.7.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "[6.0.3, )"
+        },
+        "compile": {
+          "lib/netcore451/_._": {}
+        },
+        "runtime": {
+          "lib/netcore451/_._": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -11866,6 +11999,299 @@
         "ref/net46/Microsoft.Win32.Primitives.dll",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._"
+      ]
+    },
+    "Newtonsoft.Json/8.0.2": {
+      "sha512": "e5yWmEfu68rmtG431zl9N/7PlNKQDIuiDW5MHlEFAZcecakcxrIGnKqrPAtWNILzK2oNanRB5cD150MYhECK3g==",
+      "type": "Package",
+      "files": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.xml",
+        "Newtonsoft.Json.nuspec",
+        "package/services/metadata/core-properties/cc8c591d554640789c6a6ef6456f7772.psmdcp",
+        "tools/install.ps1"
+      ]
+    },
+    "Pubnub/3.7.0": {
+      "sha512": "VKaPxJ0IIAhyPQIMfTXUj271AApG37q0Vi87JD5e0jsHId8FKssSfVLvoXowMNWPJaIAK4vEP41xjvHonbV79A==",
+      "type": "Package",
+      "files": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "content/net35/app.config.transform",
+        "content/net35/PubnubCore/ClientNetworkStatus.cs",
+        "content/net35/PubnubCore/LoggingMethod.cs",
+        "content/net35/PubnubCore/MD5.cs",
+        "content/net35/PubnubCore/Pubnub.cs",
+        "content/net35/PubnubCore/PubnubCore.cs",
+        "content/net35/PubnubCore/PubnubWin.cs",
+        "content/net35/PubnubCore/ReconnectState.cs",
+        "content/net35/PubnubExample.cs",
+        "content/net40/app.config.transform",
+        "content/net40/PubnubCore/ClientNetworkStatus.cs",
+        "content/net40/PubnubCore/LoggingMethod.cs",
+        "content/net40/PubnubCore/MD5.cs",
+        "content/net40/PubnubCore/Pubnub.cs",
+        "content/net40/PubnubCore/PubnubCore.cs",
+        "content/net40/PubnubCore/PubnubWin.cs",
+        "content/net40/PubnubCore/ReconnectState.cs",
+        "content/net40/PubnubExample.cs",
+        "content/net45/app.config.transform",
+        "content/net45/PubnubCore/ClientNetworkStatus.cs",
+        "content/net45/PubnubCore/LoggingMethod.cs",
+        "content/net45/PubnubCore/MD5.cs",
+        "content/net45/PubnubCore/Pubnub.cs",
+        "content/net45/PubnubCore/PubnubCore.cs",
+        "content/net45/PubnubCore/PubnubWin.cs",
+        "content/net45/PubnubCore/ReconnectState.cs",
+        "content/net45/PubnubExample.cs",
+        "content/net451/app.config.transform",
+        "content/net451/PubnubCore/ClientNetworkStatus.cs",
+        "content/net451/PubnubCore/LoggingMethod.cs",
+        "content/net451/PubnubCore/MD5.cs",
+        "content/net451/PubnubCore/Pubnub.cs",
+        "content/net451/PubnubCore/PubnubCore.cs",
+        "content/net451/PubnubCore/PubnubWin.cs",
+        "content/net451/PubnubCore/ReconnectState.cs",
+        "content/net451/PubnubExample.cs",
+        "content/netcore45/ChangeUUIDUserControl.xaml",
+        "content/netcore45/ChangeUUIDUserControl.xaml.cs",
+        "content/netcore45/ChannelGroupUserControl.xaml",
+        "content/netcore45/ChannelGroupUserControl.xaml.cs",
+        "content/netcore45/Common/BindableBase.cs",
+        "content/netcore45/Common/BooleanNegationConverter.cs",
+        "content/netcore45/Common/BooleanToVisibilityConverter.cs",
+        "content/netcore45/Common/LayoutAwarePage.cs",
+        "content/netcore45/Common/RichTextColumns.cs",
+        "content/netcore45/Common/SuspensionManager.cs",
+        "content/netcore45/HereNowOptionsUserControl.xaml",
+        "content/netcore45/HereNowOptionsUserControl.xaml.cs",
+        "content/netcore45/MainPage.xaml.cs.pp",
+        "content/netcore45/PAMAuthKeyUserControl.xaml",
+        "content/netcore45/PAMAuthKeyUserControl.xaml.cs",
+        "content/netcore45/PAMChannelGroupUserControl.xaml",
+        "content/netcore45/PAMChannelGroupUserControl.xaml.cs",
+        "content/netcore45/PAMChannelUserControl.xaml",
+        "content/netcore45/PAMChannelUserControl.xaml.cs",
+        "content/netcore45/PublishMessageUserControl.xaml",
+        "content/netcore45/PublishMessageUserControl.xaml.cs",
+        "content/netcore45/PubnubConfigData.cs",
+        "content/netcore45/PubnubCore/ClientNetworkStatus.cs",
+        "content/netcore45/PubnubCore/LoggingMethod.cs",
+        "content/netcore45/PubnubCore/MD5.cs",
+        "content/netcore45/PubnubCore/Pubnub.cs",
+        "content/netcore45/PubnubCore/PubnubCore.cs",
+        "content/netcore45/PubnubCore/PubnubWin.cs",
+        "content/netcore45/PubnubCore/ReconnectState.cs",
+        "content/netcore45/PubnubCore/Timer.cs",
+        "content/netcore45/PubnubDemoStart.xaml",
+        "content/netcore45/PubnubDemoStart.xaml.cs",
+        "content/netcore45/PubnubOperation.xaml",
+        "content/netcore45/PubnubOperation.xaml.cs",
+        "content/netcore45/PubnubTimeoutSettings.xaml",
+        "content/netcore45/PubnubTimeoutSettings.xaml.cs",
+        "content/netcore45/UserStateUserControl.xaml",
+        "content/netcore45/UserStateUserControl.xaml.cs",
+        "content/netcore45/WhereNowUserControl.xaml",
+        "content/netcore45/WhereNowUserControl.xaml.cs",
+        "content/netcore451/ChangeUUIDUserControl.xaml",
+        "content/netcore451/ChangeUUIDUserControl.xaml.cs",
+        "content/netcore451/ChannelGroupUserControl.xaml",
+        "content/netcore451/ChannelGroupUserControl.xaml.cs",
+        "content/netcore451/Common/NavigationHelper.cs",
+        "content/netcore451/Common/ObservableDictionary.cs",
+        "content/netcore451/Common/RelayCommand.cs",
+        "content/netcore451/Common/SuspensionManager.cs",
+        "content/netcore451/HereNowOptionsUserControl.xaml",
+        "content/netcore451/HereNowOptionsUserControl.xaml.cs",
+        "content/netcore451/MainPage.xaml.cs.pp",
+        "content/netcore451/PAMAuthKeyUserControl.xaml",
+        "content/netcore451/PAMAuthKeyUserControl.xaml.cs",
+        "content/netcore451/PAMChannelGroupUserControl.xaml",
+        "content/netcore451/PAMChannelGroupUserControl.xaml.cs",
+        "content/netcore451/PAMChannelUserControl.xaml",
+        "content/netcore451/PAMChannelUserControl.xaml.cs",
+        "content/netcore451/PublishMessageUserControl.xaml",
+        "content/netcore451/PublishMessageUserControl.xaml.cs",
+        "content/netcore451/PubnubConfigData.cs",
+        "content/netcore451/PubnubCore/ClientNetworkStatus.cs",
+        "content/netcore451/PubnubCore/LoggingMethod.cs",
+        "content/netcore451/PubnubCore/MD5.cs",
+        "content/netcore451/PubnubCore/Pubnub.cs",
+        "content/netcore451/PubnubCore/PubnubCore.cs",
+        "content/netcore451/PubnubCore/PubnubWin.cs",
+        "content/netcore451/PubnubCore/ReconnectState.cs",
+        "content/netcore451/PubnubDemoStart.xaml",
+        "content/netcore451/PubnubDemoStart.xaml.cs",
+        "content/netcore451/PubnubOperation.xaml",
+        "content/netcore451/PubnubOperation.xaml.cs",
+        "content/netcore451/PubnubTimeoutSettings.xaml",
+        "content/netcore451/PubnubTimeoutSettings.xaml.cs",
+        "content/netcore451/UserStateUserControl.xaml",
+        "content/netcore451/UserStateUserControl.xaml.cs",
+        "content/netcore451/WhereNowUserControl.xaml",
+        "content/netcore451/WhereNowUserControl.xaml.cs",
+        "content/sl4-wp71/ChangeUUIDUserControl.xaml",
+        "content/sl4-wp71/ChangeUUIDUserControl.xaml.cs",
+        "content/sl4-wp71/ChannelGroupUserControl.xaml",
+        "content/sl4-wp71/ChannelGroupUserControl.xaml.cs",
+        "content/sl4-wp71/HereNowOptionsUserControl.xaml",
+        "content/sl4-wp71/HereNowOptionsUserControl.xaml.cs",
+        "content/sl4-wp71/MainPage.cs.pp",
+        "content/sl4-wp71/Notes.txt",
+        "content/sl4-wp71/PAMAuthKeyUserControl.xaml",
+        "content/sl4-wp71/PAMAuthKeyUserControl.xaml.cs",
+        "content/sl4-wp71/PAMChannelGroupUserControl.xaml",
+        "content/sl4-wp71/PAMChannelGroupUserControl.xaml.cs",
+        "content/sl4-wp71/PAMChannelUserControl.xaml",
+        "content/sl4-wp71/PAMChannelUserControl.xaml.cs",
+        "content/sl4-wp71/PublishMessageUserControl.xaml",
+        "content/sl4-wp71/PublishMessageUserControl.xaml.cs",
+        "content/sl4-wp71/PubnubCore/ClientNetworkStatus.cs",
+        "content/sl4-wp71/PubnubCore/ConcurrentDictionary.cs",
+        "content/sl4-wp71/PubnubCore/LoggingMethod.cs",
+        "content/sl4-wp71/PubnubCore/MD5.cs",
+        "content/sl4-wp71/PubnubCore/Pubnub.cs",
+        "content/sl4-wp71/PubnubCore/PubnubCore.cs",
+        "content/sl4-wp71/PubnubCore/PubnubWin.cs",
+        "content/sl4-wp71/PubnubCore/ReconnectState.cs",
+        "content/sl4-wp71/PubnubDemoStart.xaml",
+        "content/sl4-wp71/PubnubDemoStart.xaml.cs",
+        "content/sl4-wp71/PubnubOperation.xaml",
+        "content/sl4-wp71/PubnubOperation.xaml.cs",
+        "content/sl4-wp71/PubnubTimeoutSettings.xaml",
+        "content/sl4-wp71/PubnubTimeoutSettings.xaml.cs",
+        "content/sl4-wp71/UserStateUserControl.xaml",
+        "content/sl4-wp71/UserStateUserControl.xaml.cs",
+        "content/sl4-wp71/WhereNowUserControl.xaml",
+        "content/sl4-wp71/WhereNowUserControl.xaml.cs",
+        "content/sl50/App.xaml.transform",
+        "content/sl50/Dialogs/ChangeUUIDDialog.xaml",
+        "content/sl50/Dialogs/ChangeUUIDDialog.xaml.cs",
+        "content/sl50/Dialogs/ChannelGroupDialog.xaml",
+        "content/sl50/Dialogs/ChannelGroupDialog.xaml.cs",
+        "content/sl50/Dialogs/GlobalHereNowDialog.xaml",
+        "content/sl50/Dialogs/GlobalHereNowDialog.xaml.cs",
+        "content/sl50/Dialogs/HereNowOptionsDialog.xaml",
+        "content/sl50/Dialogs/HereNowOptionsDialog.xaml.cs",
+        "content/sl50/Dialogs/PublishMessageDialog.xaml",
+        "content/sl50/Dialogs/PublishMessageDialog.xaml.cs",
+        "content/sl50/Dialogs/UserStateDialog.xaml",
+        "content/sl50/Dialogs/UserStateDialog.xaml.cs",
+        "content/sl50/Dialogs/WhereNowDialog.xaml",
+        "content/sl50/Dialogs/WhereNowDialog.xaml.cs",
+        "content/sl50/MainPage.xaml.transform",
+        "content/sl50/PubnubCore/ClientNetworkStatus.cs",
+        "content/sl50/PubnubCore/LoggingMethod.cs",
+        "content/sl50/PubnubCore/MD5.cs",
+        "content/sl50/PubnubCore/Pubnub.cs",
+        "content/sl50/PubnubCore/PubnubCore.cs",
+        "content/sl50/PubnubCore/PubnubWin.cs",
+        "content/sl50/PubnubCore/ReconnectState.cs",
+        "content/sl50/Styles/PubnubSilverlightButtonStyle.xaml",
+        "content/sl50/Styles/PubnubSilverlightStyles.xaml",
+        "content/sl50/Views/CodeExampleView.xaml",
+        "content/sl50/Views/CodeExampleView.xaml.cs",
+        "content/sl50/Views/ErrorWindow.xaml",
+        "content/sl50/Views/ErrorWindow.xaml.cs",
+        "content/wp8/ChangeUUIDUserControl.xaml",
+        "content/wp8/ChangeUUIDUserControl.xaml.cs",
+        "content/wp8/ChannelGroupUserControl.xaml",
+        "content/wp8/ChannelGroupUserControl.xaml.cs",
+        "content/wp8/HereNowOptionsUserControl.xaml",
+        "content/wp8/HereNowOptionsUserControl.xaml.cs",
+        "content/wp8/MainPage.cs.pp",
+        "content/wp8/PAMAuthKeyUserControl.xaml",
+        "content/wp8/PAMAuthKeyUserControl.xaml.cs",
+        "content/wp8/PAMChannelGroupUserControl.xaml",
+        "content/wp8/PAMChannelGroupUserControl.xaml.cs",
+        "content/wp8/PAMChannelUserControl.xaml",
+        "content/wp8/PAMChannelUserControl.xaml.cs",
+        "content/wp8/PublishMessageUserControl.xaml",
+        "content/wp8/PublishMessageUserControl.xaml.cs",
+        "content/wp8/PubnubCore/ClientNetworkStatus.cs",
+        "content/wp8/PubnubCore/LoggingMethod.cs",
+        "content/wp8/PubnubCore/MD5.cs",
+        "content/wp8/PubnubCore/Pubnub.cs",
+        "content/wp8/PubnubCore/PubnubCore.cs",
+        "content/wp8/PubnubCore/PubnubWin.cs",
+        "content/wp8/PubnubCore/ReconnectState.cs",
+        "content/wp8/PubnubDemoStart.xaml",
+        "content/wp8/PubnubDemoStart.xaml.cs",
+        "content/wp8/PubnubOperation.xaml",
+        "content/wp8/PubnubOperation.xaml.cs",
+        "content/wp8/PubnubTimeoutSettings.xaml",
+        "content/wp8/PubnubTimeoutSettings.xaml.cs",
+        "content/wp8/PushNotificationUserControl.xaml",
+        "content/wp8/PushNotificationUserControl.xaml.cs",
+        "content/wp8/UserStateUserControl.xaml",
+        "content/wp8/UserStateUserControl.xaml.cs",
+        "content/wp8/WhereNowUserControl.xaml",
+        "content/wp8/WhereNowUserControl.xaml.cs",
+        "content/wpa81/ChangeUUIDUserControl.xaml",
+        "content/wpa81/ChangeUUIDUserControl.xaml.cs",
+        "content/wpa81/ChannelGroupUserControl.xaml",
+        "content/wpa81/ChannelGroupUserControl.xaml.cs",
+        "content/wpa81/Common/NavigationHelper.cs",
+        "content/wpa81/Common/ObservableDictionary.cs",
+        "content/wpa81/Common/RelayCommand.cs",
+        "content/wpa81/Common/SuspensionManager.cs",
+        "content/wpa81/HereNowOptionsUserControl.xaml",
+        "content/wpa81/HereNowOptionsUserControl.xaml.cs",
+        "content/wpa81/MainPage.xaml.cs.pp",
+        "content/wpa81/PAMAuthKeyUserControl.xaml",
+        "content/wpa81/PAMAuthKeyUserControl.xaml.cs",
+        "content/wpa81/PAMChannelGroupUserControl.xaml",
+        "content/wpa81/PAMChannelGroupUserControl.xaml.cs",
+        "content/wpa81/PAMChannelUserControl.xaml",
+        "content/wpa81/PAMChannelUserControl.xaml.cs",
+        "content/wpa81/PublishMessageUserControl.xaml",
+        "content/wpa81/PublishMessageUserControl.xaml.cs",
+        "content/wpa81/PubnubConfigData.cs",
+        "content/wpa81/PubnubCore/ClientNetworkStatus.cs",
+        "content/wpa81/PubnubCore/LoggingMethod.cs",
+        "content/wpa81/PubnubCore/MD5.cs",
+        "content/wpa81/PubnubCore/Pubnub.cs",
+        "content/wpa81/PubnubCore/PubnubCore.cs",
+        "content/wpa81/PubnubCore/PubnubWin.cs",
+        "content/wpa81/PubnubCore/ReconnectState.cs",
+        "content/wpa81/PubnubDemoStart.xaml",
+        "content/wpa81/PubnubDemoStart.xaml.cs",
+        "content/wpa81/PubnubOperation.xaml",
+        "content/wpa81/PubnubOperation.xaml.cs",
+        "content/wpa81/PubnubTimeoutSettings.xaml",
+        "content/wpa81/PubnubTimeoutSettings.xaml.cs",
+        "content/wpa81/UserStateUserControl.xaml",
+        "content/wpa81/UserStateUserControl.xaml.cs",
+        "content/wpa81/WhereNowUserControl.xaml",
+        "content/wpa81/WhereNowUserControl.xaml.cs",
+        "lib/net35/System.Threading.dll",
+        "lib/net40/_._",
+        "lib/net45/_._",
+        "lib/net451/_._",
+        "lib/netcore45/_._",
+        "lib/netcore451/_._",
+        "lib/sl4-wp71/_._",
+        "lib/sl50/System.Threading.Tasks.SL5.dll",
+        "lib/sl50/System.Windows.Controls.dll",
+        "lib/sl50/System.Windows.Controls.Navigation.dll",
+        "lib/wp8/TvdP.Collections.dll",
+        "lib/wpa81/_._",
+        "package/services/metadata/core-properties/1d0bd7f3af7e488baf41bf26eac9a6d2.psmdcp",
+        "Pubnub.nuspec",
+        "tools/_._"
       ]
     },
     "System.AppContext/4.0.0": {
@@ -14566,7 +14992,9 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "Microsoft.NETCore.UniversalWindowsPlatform >= 5.0.0"
+      "Microsoft.NETCore.UniversalWindowsPlatform >= 5.0.0",
+      "Newtonsoft.Json >= 8.0.2",
+      "Pubnub >= 3.7.0"
     ],
     "UAP,Version=v10.0": []
   }
